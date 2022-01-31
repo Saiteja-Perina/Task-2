@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    background-image: url("1.2-ftz/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Trebuchet MS;
+}
+#container{
+    margin: 0 auto;
+    width: 951px;
+}
+span{
+    float: right;
+    background-color: #3A588C;
+    height: 25px;
+    text-align: center;
+    box-sizing: content-box;
+    margin-bottom: 30px;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin: 2px;
+}
+#middle{
+    border-left: 1px solid powderblue;
+    border-right: 1px solid powderblue;
+    padding: 0 5px;
+}
+#navbar{
+    height: 58px;
+    background-color: #0F213A;
+    clear: right;
+}
+#image{
+    position: absolute;
+    float: left;
+    top: 10px;
+    padding-left: 15px;
+    z-index: 2;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-top: 16px;
+}
+#navbar ul li{
+    float: left;
+    text-align: justify;
+    display: block;
+    padding: 0 15px;
+}
+#navbar ul li a{
+    color: #9DCCE9;
+    font-size: 18px;
+    font-weight: normal;
+}
+.middle{
+    border-right: 1px solid white;
+}
+#header{
+    height: auto;
+    background: rgba(0,0,0,0.2);
+    border: 0.01px solid rgba(0,0,0,0.2);
+}
+#header p{
+    margin: 0;
+    padding-top: 45px;
+    padding-left: 20px;
+    font-size: 2.4rem;
+    color: white;
+    letter-spacing: 7px;
+}
+#header .heading{
+    padding-top: 0;
+    padding-bottom: 45px;
+}
+#body{
+    background-color: #0F213A;
+}
+#body div{
+    width: 317px;
+    height: fit-content;
+    float: left;
+    background-color: #0F213A;
+    margin: 0;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+#body div img{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 281px;
+    height: 121px;
+}
+.img1{
+    padding-left: 27px;
+    padding-right: 9px;
+}
+.img2{
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.img3{
+    padding-left: 9px;
+    padding-right: 27px;
+}
+#body div p{
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+#body div .pimg3{
+    padding-left: 9px;
+    padding-right: 27px;
+    padding-bottom: 24px;
+}
+#body div a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9DCCE9;
+    text-decoration: underline solid #9DCCE9;
+    margin: 0;
+}
+#footer{
+    clear: both;
+    background-color: #3A588C;
+    height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    display:grid;
+    align-content: center;
+}
+#footer p{
+    font-size: small;
+}
+#footer p a{
+    text-decoration: underline solid white;
+}
