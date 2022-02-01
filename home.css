@@ -48,18 +48,24 @@ a{
     padding: 0;
     overflow: hidden;
     float: right;
-    margin-top: 16px;
+    margin-top: 14.6px;
 }
 #navbar ul li{
     float: left;
     text-align: justify;
     display: block;
-    padding: 0 15px;
+    padding: 4px 0;
 }
 #navbar ul li a{
     color: #9DCCE9;
     font-size: 18px;
     font-weight: normal;
+    padding: 0px 15px;
+    margin: 0;
+}
+#navbar ul li:hover{
+    background-color: #486781;
+    border-radius: 5px;
 }
 .middle{
     border-right: 1px solid white;
@@ -99,9 +105,12 @@ a{
     width: 281px;
     height: 121px;
 }
-.img1{
+.img1, .pimg1{
     padding-left: 27px;
     padding-right: 9px;
+}
+.pimg1{
+    filter: brightness(200%);
 }
 .img2{
     padding-right: 18px;
@@ -140,7 +149,7 @@ a{
     margin-bottom: 10px;
     text-align: center;
     color: white;
-    display:grid;
+    display: grid;
     align-content: center;
 }
 #footer p{
