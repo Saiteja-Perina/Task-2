@@ -32,9 +32,14 @@ a{
 }
 #navbar{
     height: 58px;
-    background-color: #0F213A;
+    padding: 5px;
+    background-color: rgba(15,33,58,0.8);
     clear: right;
     margin-bottom: 45px;
+}
+#inner{
+    height: 56px;
+    border: 1px solid #414D5F;
 }
 #image{
     position: absolute;
@@ -68,12 +73,22 @@ a{
     background-color: #486781;
     border-radius: 5px;
 }
-.middle{
+#navbar ul li a:hover{
+    color: white;
+}
+#navbar ul li .mid{
+    color: white;
+}
+.middle, .mid{
     border-right: 1px solid white;
+}
+.highlight{
+    background-color: #486781;
+    border-radius: 5px;
 }
 #serviceinfo{
     padding: 30px 25px;
-    background-color: #0F213A;
+    background-image: linear-gradient(rgba(15,33,58,0.8),rgba(15,33,58,1));
     margin-bottom: 10px;
     height: auto;
     display: flex;
@@ -90,14 +105,14 @@ a{
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin-right: 15px;
-    padding: 15px 0;
+    padding: 15px 0 20px 0;
 }
 .options a{
-    color: #9DCCE9;
+    color: #CFDCEF;
     font-size: 14px;
-    padding: 10px 0;
-    text-decoration: underline solid #9DCCE9;
-    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #CFDCEF;
+    margin: 10px 0;
 }
 .info{
     width: 599px;
@@ -120,10 +135,10 @@ a{
     line-height: 1.6;
 }
 .info p a{
-    color: #9DCCE9;
+    color: #CFDCEF;
     font-size: 14px;
     font-weight: 400;
-    text-decoration: underline solid #9DCCE9;
+    border-bottom: 2px solid #CFDCEF;
     margin: 0;
 }
 .info ul li{
@@ -161,16 +176,17 @@ a{
 #footer{
     clear: both;
     background-color: #3A588C;
-    height: 25px;
+    height: 30px;
     margin-bottom: 10px;
     text-align: center;
-    color: white;
     display: grid;
     align-content: center;
 }
 #footer p{
     font-size: small;
+    color: #CFDCEF;
 }
 #footer p a{
-    text-decoration: underline solid white;
+    border-bottom: 2px solid white;
+    margin: 0;
 }

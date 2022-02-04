@@ -32,8 +32,13 @@ a{
 }
 #navbar{
     height: 58px;
-    background-color: #0F213A;
+    padding: 5px;
+    background-color: rgba(15,33,58,0.8);
     clear: right;
+}
+#inner{
+    height: 56px;
+    border: 1px solid #414D5F;
 }
 #image{
     position: absolute;
@@ -67,13 +72,15 @@ a{
     background-color: #486781;
     border-radius: 5px;
 }
+#navbar ul li a:hover{
+    color: white;
+}
 .middle{
     border-right: 1px solid white;
 }
 #header{
     height: auto;
     background: rgba(0,0,0,0.2);
-    border: 0.01px solid rgba(0,0,0,0.2);
 }
 #header p{
     margin: 0;
@@ -88,13 +95,13 @@ a{
     padding-bottom: 45px;
 }
 #body{
-    background-color: #0F213A;
+    background-image: linear-gradient(rgba(15,33,58,0.8),rgba(15,33,58,1));
 }
 #body div{
     width: 317px;
     height: fit-content;
     float: left;
-    background-color: #0F213A;
+    background-image: linear-gradient(rgba(15,33,58,0.8),rgba(15,33,58,1));
     margin: 0;
     padding-bottom: 25px;
     margin-bottom: 5px;
@@ -139,22 +146,31 @@ a{
     font-size: 14px;
     font-weight: 400;
     color: #9DCCE9;
-    text-decoration: underline solid #9DCCE9;
-    margin: 0;
+    border-bottom: 2px solid #9DCCE9;
+}
+.link1{
+    margin-left: 27px;
+}
+.link2{
+    margin-left: 18px;
+}
+.link3{
+    margin-left: 9px;
 }
 #footer{
     clear: both;
     background-color: #3A588C;
-    height: 25px;
+    height: 30px;
     margin-bottom: 10px;
     text-align: center;
-    color: white;
     display: grid;
     align-content: center;
 }
 #footer p{
     font-size: small;
+    color: #CFDCEF;
 }
 #footer p a{
-    text-decoration: underline solid white;
+    border-bottom: 2px solid white;
+    margin: 0;
 }
