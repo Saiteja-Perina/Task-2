@@ -36,6 +36,7 @@ a{
     background-color: rgba(15,33,58,0.8);
     clear: right;
     margin-bottom: 45px;
+    color: white;
 }
 #inner{
     height: 56px;
@@ -54,35 +55,31 @@ a{
     padding: 0;
     overflow: hidden;
     float: right;
-    margin-top: 14.6px;
+    margin-top: 12px;
+    height: 32px;
 }
 #navbar ul li{
     float: left;
     text-align: justify;
     display: block;
     padding: 4px 0;
+    height: 24px;
 }
 #navbar ul li a{
     color: #9DCCE9;
     font-size: 18px;
     font-weight: normal;
-    padding: 0px 15px;
+    padding: 4px 15px;
+    height: 16px;
     margin: 0;
-}
-#navbar ul li:hover{
-    background-color: #486781;
-    border-radius: 5px;
 }
 #navbar ul li a:hover{
     color: white;
+    background-color: #486781;
+    border-radius: 5px;
 }
 #navbar ul li .mid{
     color: white;
-}
-.middle, .mid{
-    border-right: 1px solid white;
-}
-.highlight{
     background-color: #486781;
     border-radius: 5px;
 }
@@ -95,7 +92,6 @@ a{
 }
 .images{
     width: 292px;
-    float: left;
 }
 .img2{
     padding: 25px 0;
@@ -116,7 +112,6 @@ a{
 }
 .info{
     width: 599px;
-    float: right;
     padding-left: 10px;
     margin-bottom: 20px;
     align-content: flex-end;
@@ -149,7 +144,6 @@ a{
 }
 .contact{
     width: 569px;
-    float: right;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding: 15px 0 25px 40px;
