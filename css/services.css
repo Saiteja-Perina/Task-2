@@ -12,11 +12,18 @@
     border-radius: 5px;
 }
 #serviceinfo{
-    padding: 30px 25px;
-    background-image: linear-gradient(rgba(15,33,58,0.8),rgba(15,33,58,1));
+    padding: 5px;
+    background-color: rgba(15,33,58,0.8);
     margin-bottom: 10px;
     height: auto;
+}
+#innerdiv{
+    padding: 30px 25px;
     display: flex;
+    height: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom, rgba(0,0,0,0), #414D5F);
+    border-image-slice: 1;
 }
 .images{
     width: 292px;
