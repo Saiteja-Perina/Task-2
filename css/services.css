@@ -1,35 +1,3 @@
-body{
-    margin: 0;
-    background-image: url("1.2-ftz/bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Trebuchet MS;
-}
-#container{
-    margin: 0 auto;
-    width: 951px;
-}
-span{
-    float: right;
-    background-color: #3A588C;
-    height: 25px;
-    text-align: center;
-    box-sizing: content-box;
-    margin-bottom: 30px;
-    align-content: center;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: small;
-    margin: 2px;
-}
-#middle{
-    border-left: 1px solid powderblue;
-    border-right: 1px solid powderblue;
-    padding: 0 5px;
-}
 #navbar{
     height: 58px;
     padding: 5px;
@@ -38,47 +6,7 @@ a{
     margin-bottom: 45px;
     color: white;
 }
-#inner{
-    height: 56px;
-    border: 1px solid #414D5F;
-}
-#image{
-    position: absolute;
-    float: left;
-    top: 10px;
-    padding-left: 15px;
-    z-index: 2;
-}
-#navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    margin-top: 12px;
-    height: 32px;
-}
-#navbar ul li{
-    float: left;
-    text-align: justify;
-    display: block;
-    padding: 4px 0;
-    height: 24px;
-}
-#navbar ul li a{
-    color: #9DCCE9;
-    font-size: 18px;
-    font-weight: normal;
-    padding: 4px 15px;
-    height: 16px;
-    margin: 0;
-}
-#navbar ul li a:hover{
-    color: white;
-    background-color: #486781;
-    border-radius: 5px;
-}
-#navbar ul li .mid{
+#navbar ul li .highlight{
     color: white;
     background-color: #486781;
     border-radius: 5px;
